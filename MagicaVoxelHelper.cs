@@ -74,7 +74,7 @@ namespace MaggardJosh.UnityTools
         /// </summary>
         /// <param name="stream">An open BinaryReader stream that is the .vox file.</param>
         /// <returns>The voxel chunk data for the MagicaVoxel .vox file.</returns>
-        public static Result FromMagica(BinaryReader stream)
+        public static Result ReadFile(BinaryReader stream)
         {
             // check out http://voxel.codeplex.com/wikipage?title=VOX%20Format&referringTitle=Home for the file format used below
             // we're going to return a voxel chunk worth of data
