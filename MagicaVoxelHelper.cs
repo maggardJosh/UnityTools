@@ -150,7 +150,7 @@ namespace MaggardJosh.UnityTools
         /// </summary>
         /// <param name="value">32-bit color value</param>
         /// <returns></returns>
-        public static Color getColor(uint value)
+        private static Color getColor(uint value)
         {
             uint r = (value) & 0xff;
             uint g = (value >> 8) & 0xff;
